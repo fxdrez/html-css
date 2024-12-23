@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Google__G__logo.svg.webp" type="image/google-icon">
+    <title>Meet Willow, our state-of-the-art quantum chip</title>
+
+</head>
+
+<body>
+    <h1 id="top">
+        <b>
+            Meet Willow, our state-of-the-art quantum chip
+        </b>
+    </h1>
+    <small>
+        Dec 09
+    </small>
+    <br>
+    <h3>Our new chip demonstrates error correction and
+        performance that paves the way to a useful, large-scale quantum computer
+    </h3>
+    <br><br>
+    <div>
+        <video src="Videos/05_Hero_Shot.mp4" autoplay loop frameborder="0" height="100%" width="100%"></video>
+    </div>
+    <p>
+        Today I'm delighted to announce Willow, our latest quantum chip. Willow has state-of-the-art performance across
+        a number of metrics, enabling two major achievements.
+    </p>
+    <ul>
+        <li>
+            The first is that Willow can reduce errors exponentially as we scale up using more qubits. This cracks a key
+            challenge in quantum error correction that the field has pursued for almost 30 years.
+        </li>
+        <br>
+        <li>
+            Second, Willow performed a standard benchmark computation in under five minutes that would take one of
+            today's
+            <a href="https://www.olcf.ornl.gov/frontier/" target="_blank">fastest supercomputers</a> 10 septillion (that
+            is, 1025) years
+            — a number that vastly exceeds the age of the
+            Universe.
+        </li>
+    </ul>
+    <p>
+        The Willow chip is a major step on a journey that began over 10 years ago. When I founded Google Quantum AI in
+        2012, the vision was to build a useful, large-scale quantum computer that could harness quantum mechanics — the
+        “operating system” of nature to the extent we know it today — to benefit society by advancing scientific
+        discovery, developing <a href="https://quantumai.google/applications" target="_blank">helpful applications</a>,
+        and tackling some of society's greatest challenges. As part of
+        Google Research, our team has charted a long-term <a href="https://quantumai.google/roadmap"
+            target="_blank">roadmap</a>, and Willow moves us significantly along that path
+        towards commercially relevant applications.
+
+    </p>
+    <br>
+    <div>
+        <iframe width="660" height="415" src="https://www.youtube.com/watch?v=MnqzB5qlIiE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <br>
+        <mark>
+            A video with Director of Quantum Hardware Julian Kelly introducing <br> Willow and its breakthrough
+            achievements
+        </mark>
+    </div>
+    <h2>
+        Exponential quantum error correction — below threshold!
+    </h2>
+    <p>
+        Errors are one of the greatest challenges in quantum computing, since qubits, the units of computation in
+        quantum computers, have a tendency to rapidly exchange information with their environment, making it difficult
+        to protect the information needed to complete a computation. Typically the more qubits you use, the more errors
+        will occur, and the system becomes classical.
+
+        <br><br>
+
+        Today in <a href="https://www.nature.com/articles/s41586-024-08449-y" target="_blank">Nature</a>, we published
+        results showing that the <b><a href="https://research.google/blog/making-quantum-error-correction-work/"
+                target="_blank">more qubits we use in Willow, the more we <i>reduce</i> errors</a>,
+            and the more quantum the system becomes.</b> We tested ever-larger arrays of physical qubits, scaling up
+        from a grid
+        of 3x3 encoded qubits, to a grid of 5x5, to a grid of 7x7 — and each time, using our latest advances in quantum
+        error correction, we were able to cut the error rate in half. In other words, we achieved an exponential
+        reduction in the error rate. This historic accomplishment is known in the field as <q>below threshold</q> —
+        being
+        able to drive errors down while scaling up the number of qubits. You must demonstrate being below threshold to
+        show real progress on error correction, and this has been an outstanding challenge since <a
+            href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.52.R2493" target="_blank">quantum error
+            correction</a> was introduced by Peter Shor in 1995.
+
+        <br><br>
+
+        There are other scientific <q>firsts</q> involved in this result as well. For example, it's also one of the
+        first
+        compelling examples of real-time error correction on a superconducting quantum system — crucial for any useful
+        computation, because if you can't correct errors fast enough, they ruin your computation before it's done. And
+        it's a <q>beyond breakeven</q> demonstration, where our arrays of qubits have longer lifetimes than the
+        individual
+        physical qubits do, an unfakable sign that error correction is improving the system overall.
+
+        <br><br>
+
+        As the first system below threshold, this is the most convincing prototype for a scalable logical qubit built to
+        date. It's a strong sign that useful, very large quantum computers can indeed be built. Willow brings us closer
+        to running practical, commercially-relevant algorithms that can't be replicated on conventional computers.
+    </p>
+    <h2>
+        10 septillion years on one of today's fastest supercomputers
+    </h2>
+    <p>
+        As a measure of Willow's performance, we used the <a
+            href="https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/"
+            target="_blank">random circuit sampling (RCS) benchmark</a>. Pioneered by our team
+        and now widely used as a standard in the field, RCS is the classically hardest benchmark that can be done on a
+        quantum computer today. You can think of this as an entry point for quantum computing — it checks whether a
+        quantum computer is doing something that couldn't be done on a classical computer. Any team building a quantum
+        computer should check first if it can beat classical computers on RCS; otherwise there is strong reason for
+        skepticism that it can tackle more complex quantum tasks. We've consistently used this benchmark to assess
+        progress from one generation of chip to the next — we reported Sycamore results in <a
+            href="https://blog.google/technology/ai/what-our-quantum-computing-milestone-means/" target="_blank">October
+            2019</a> and again
+        recently in <a href="https://www.nature.com/articles/s41586-024-07998-6" target="_blank">October 2024</a>.
+
+        <br><br>
+
+        Willow's performance on this benchmark is astonishing: It performed a computation in under five minutes that
+        would take one of today's <a href="https://www.olcf.ornl.gov/frontier/" target="_blank">fastest
+            supercomputers</a> 10<sup>25</sup> or 10 septillion years. If you want to write it
+        out, it's
+        10,000,000,000,000,000,000,000,000 years. This mind-boggling number exceeds known timescales in physics and
+        vastly exceeds the age of the universe. It lends credence to the notion that quantum computation occurs in many
+        parallel universes, in line with the idea that we live in a multiverse, a <a
+            href="https://en.wikipedia.org/wiki/The_Fabric_of_Reality" target="_blank">prediction</a> first made by
+        David
+        Deutsch.
+
+        <br><br>
+
+        These latest results for Willow, as shown in the plot below, are our best so far, but we’ll continue to make
+        progress.
+    </p>
+    <div>
+        <img src="images/KW_Fig1.width-1000.format-webp.webp" width="700" height="600">
+        <br>
+        <mark>
+            Computational costs are heavily influenced by available memory. Our estimates therefore <br>consider a range
+            of scenarios, from an ideal situation with unlimited memory (▲) to<br>a more practical, embarrassingly
+            parallelizable implementation on GPUs (⬤).
+        </mark>
+    </div>
+    <br>
+    <p>
+        Our assessment of how Willow outpaces one of the world's most powerful classical supercomputers, Frontier, was
+        based on conservative assumptions. For example, we assumed full access to secondary storage, i.e., hard drives,
+        without any bandwidth overhead — a generous and unrealistic allowance for Frontier. Of course, as happened after
+        we announced the first beyond-classical computation in 2019, we expect classical computers to keep improving on
+        this benchmark, but the rapidly growing gap shows that quantum processors are peeling away at a double
+        exponential rate and will continue to vastly outperform classical computers as we scale up.
+    </p>
+    <div>
+        <iframe width="660" height="415" src="https://youtu.be/l_KrC1mzd0g" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <br>
+    </div>
+    <br>
+    <p>
+        A video with Principal Scientist Sergio Boixo, Founder and Lead Hartmut Neven, and renowned physicist John
+        Preskill discussing random circuit sampling, a benchmark that demonstrates beyond-classical performance in
+        quantum computers.
+    </p>
+    <h2>State-of-the-art performance</h2>
+    <p>
+        Willow was fabricated in our new, state-of-the-art fabrication facility in Santa Barbara — one of only a few
+        facilities in the world built from the ground up for this purpose. System engineering is key when designing and
+        fabricating quantum chips: All components of a chip, such as single and two-qubit gates, qubit reset, and
+        readout, have to be simultaneously well engineered and integrated. If any component lags or if two components
+        don't function well together, it drags down system performance. Therefore, maximizing system performance informs
+        all aspects of our process, from chip architecture and fabrication to gate development and calibration. The
+        achievements we report assess quantum computing systems holistically, not just one factor at a time.
+
+        <br><br>
+
+        We're focusing on quality, not just quantity — because just producing larger numbers of qubits doesn't help if
+        they're not high enough quality. With 105 qubits, Willow now has best-in-class performance across the two system
+        benchmarks discussed above: quantum error correction and random circuit sampling. Such algorithmic benchmarks
+        are the best way to measure overall chip performance. Other more specific performance metrics are also
+        important; for example, our T1 times, which measure how long qubits can retain an excitation — the key quantum
+        computational resource — are now approaching 100 µs (microseconds). This is an impressive ~5x improvement over
+        our previous generation of chips. If you want to evaluate quantum hardware and compare across platforms, here is
+        a table of key specifications:
+    </p>
+    <div>
+        <img src="images/KW_Fig3.width-1000.format-webp.webp" width="750" height="1400">
+        <br>
+        <mark>
+            Willow's performance across a number of metrics.
+        </mark>
+    </div>
+    <h2>
+        What's next with Willow and beyond
+    </h2>
+    <p>
+        The next challenge for the field is to demonstrate a first <q>useful, beyond-classical</q> computation on
+        today's quantum chips that is relevant to a real-world application. We're optimistic that the Willow generation
+        of chips can help us achieve this goal. So far, there have been two separate types of experiments. On the one
+        hand, we've run the RCS benchmark, which measures performance against classical computers but has no known
+        real-world applications. On the other hand, we've done scientifically interesting simulations of quantum
+        systems, which have led to new scientific discoveries but are still within the reach of classical computers. Our
+        goal is to do both at the same time — to step into the realm of algorithms that are beyond the reach of
+        classical computers <b>and</b> that are useful for real-world, commercially relevant problems.
+    </p>
+    <div>
+        <img src="images/KW_Fig2.width-1000.format-webp.webp">
+        <br>
+        <mark>
+            Random circuit sampling (RCS), while extremely challenging for classical computers,<br>has yet to
+            demonstrate practical commercial applications.
+        </mark>
+    </div>
+    <br>
+    <p>
+        We invite researchers, engineers, and developers to join us on this journey by checking out our <a
+            href="https://quantumai.google/software" target="_blank">open source software</a> and educational resources,
+        including our <a href="https://coursera.org/learn/quantum-error-correction" target="_blank">new course on
+            Coursera</a>, where developers can learn the essentials of quantum error correction and help us create
+        algorithms that can solve the problems of the future.
+    </p>
+    <br>
+    <div>
+        <img src="images/KW_Fig4.width-1000.format-webp.webp">
+        <br>
+        <mark>
+            an illustrated card reading "Our quantum computing roadmap" and a timeline showing 6 milestones<br> from
+            "Beyond
+            classical" to "Large error-corrected quantum computer"
+        </mark>
+    </div>
+    <br>
+    <p>
+        My colleagues sometimes ask me why I left the burgeoning field of AI to focus on quantum computing. My answer is
+        that both will prove to be the most transformational technologies of our time, but advanced AI will
+        significantly benefit from access to quantum computing. This is why I named our lab Quantum AI. Quantum
+        algorithms have fundamental scaling laws on their side, as we're seeing with RCS. There are similar scaling
+        advantages for many foundational computational tasks that are essential for AI. So quantum computation will be
+        indispensable for collecting training data that's inaccessible to classical machines, training and optimizing
+        certain learning architectures, and modeling systems where quantum effects are important. This includes helping
+        us discover new medicines, designing more efficient batteries for electric cars, and accelerating progress in
+        fusion and new energy alternatives. Many of these future game-changing applications won't be feasible on
+        classical computers; they're waiting to be unlocked with quantum computing.
+    </p>
+</body>
+
+</html>
