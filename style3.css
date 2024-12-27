@@ -1,0 +1,28 @@
+body{
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+h1{
+    color: #555555;
+}
+ul{
+    list-style-type: none;
+    background-color: #333333;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+
+li a{
+    padding: 20px;
+    display: block;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: #999999;
+}
