@@ -1,0 +1,27 @@
+body{
+    margin: 5cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: rgb(226, 20, 23);
+}
+span{
+    color: rgb(53, 67, 193);
+    background-color: aquamarine;
+    text-align: justify;
+    font-size: larger;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    color: azure;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: chocolate;
+}
