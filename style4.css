@@ -26,6 +26,7 @@
     width: 80px;
     border-radius: 48px;
     cursor: pointer;
+    font-weight: 15px;
 }
 .login{
     margin-left: 8px;
@@ -37,5 +38,80 @@
     color:white;
     border-radius: 8px;
     font-weight: bolder;
+    cursor: pointer;
+}
+.uber{
+    margin-left: 8px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 105px;
+    border: none;
+    cursor: pointer;
+}
+.amazon{
+    margin-left: 8px;
+    background-color: rgb(225,216,20);
+    color: black;
+    border: none;
+    height: 40px;
+    width: 170px;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.github{
+    margin-left: 8px;
+    background-color: rgb(46,164,79);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.bootstrap-get-start{
+    margin-right: 8px;
+    background-color: rgb(121,82,179);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 115px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bootstrap-download{
+    background-color: white;
+    color:rgb(108,117,125);
+    border: none;
+    border: 1px solid rgb(108,117,125);
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.linkedin-apply{
+    background-color: rgb(10,102,194);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 230px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.linkedin-save{
+    margin-left: 8px;
+    background-color: white;
+    color: rgb(10,102,194);
+    border: none;
+    border: 1px solid rgb(10,102,194);
+    height: 40px;
+    width: 85px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
     cursor: pointer;
 }
