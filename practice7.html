@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style7.css">
+
+</head>
+
+<body>
+    <h1>Form You Should Fill </h1>
+    <div class="form">
+        <form action="backend.php" method="GET" -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Ram Karma" required>
+            </div>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="ram01" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="something@opps.com" required>
+            </div>
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" name="dates" id="date" required min="2010-01-01" max="2024-01-01">
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="male" required><label for="male">Male</label>
+                <input type="radio" name="gender" id="female" required><label for="female">Female</label>
+                <input type="radio" name="gender" id="others" required><label for="others">Others</label>
+            </div>
+            <div>
+                <label for="file">File:</label>
+                <input type="file" name="filr" id="file" accept="image/*">
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" required min="18" max="150">
+            </div>
+            <div>
+                <input type="hidden" name="hidden" value="Student">
+            </div>
+            <div>
+                <label for="religion">Religion:</label>
+                <select name="religion" id="religion" required>
+                    <option value="religion" label="Hindu"></option>
+                    <option value="religion" label="Islam"></option>
+                    <option value="religion" label="Christinity"></option>
+
+                </select>
+            </div>
+            <div>
+                <label for="bio">Bio:</label>
+                <textarea value="bio" name="bio" id="bio"></textarea>
+            </div>
+            <div>
+                Password:<input type="password" name="passwd" id="passwd" required maxlength="16" minlength="8"
+                    placeholder="Enter The Password">
+            </div>
+            <div>
+                Re-Password:<input type="password" name="passwd" id="re-passwd" required maxlength="16" minlength="8"
+                    placeholder="Re Enter The Password">
+            </div>
+            <div>
+                <input type="reset" value="Reset" id="reset">
+            </div>
+            <div>
+                <input type="submit" value="Submit Now" target="_blank" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
